@@ -8,13 +8,12 @@ import Task from "./Pages/Task";
 
 function App(){
   return(
-    <div> 
+    <div className="justify-items-center"> 
     {/* <Nav/>
     <Body/>
     <Contact/>
     <Footer/> */}
     <ToDoApp/>
-    <Task/>
     </div>
   )
 }
